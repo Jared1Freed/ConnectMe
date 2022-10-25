@@ -28,8 +28,19 @@
   }
 
   img.logo{
+    width: 200px;
+    height: 200px;
+    display: block;
+    overflow: hidden;
+}
 
-  }
+.logo-image{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
 
   nav ul li{
     list-style-type: none;
@@ -72,5 +83,5 @@
     
     cursor: pointer;
     border-radius: 40px;
-    box-shadow: 5px 3px #888888;
+    box-shadow: 3px 3px #f1f1f1;
   }
