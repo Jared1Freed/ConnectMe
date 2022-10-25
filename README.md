@@ -19,6 +19,12 @@ Has experience with:
 
 ### Deandre Taylor
 
+Senior (Information Technology).
+Has experience with:
+- Web languages (HTML, JavaScript, CSS)
+- C, Java, C#, C++, MySQL
+- Digital Media & Marketing
+
 ### Jared Freed
 
 ### Kaden Marshall
