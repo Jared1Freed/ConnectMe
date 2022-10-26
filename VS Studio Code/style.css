@@ -1,4 +1,9 @@
 /*-----------------------------------Home Page-------------------------*/
+*{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 500;
+}
+
 h1{
     text-align: center;
     display: block;
@@ -6,7 +11,7 @@ h1{
 
 p{
     text-align: center;
-    padding: 20px;
+    margin-top: 20px;
 }
 
 img{
@@ -30,11 +35,11 @@ img{
     height: 20%;
     margin-left: -300px;
     margin-top: 200px;
-    margin-bottom: none;
+    margin-bottom: 0;
 }
 
   input[type=email], select, textarea {
-    width: 90%;
+    width: 85%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -42,6 +47,7 @@ img{
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    box-shadow: 3px 3px #f1f1f1;
   }
   
   input[type=submit] {
@@ -52,6 +58,7 @@ img{
     border-radius: 20px;
     cursor: pointer;
     align-items: center;
+    box-shadow: 3px 3px #f1f1f1;
   }
   
   input[type=submit]:hover {
@@ -60,8 +67,12 @@ img{
   
   .container {
     border-radius: 5px;
-    padding: 20px;
-    box-shadow: 3px 3px #f1f1f1;
+    box-shadow: 3px 3px 5px 3px #f1f1f1;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 50px;
+    
   }
 
   @media only screen and (max-width: 100) {
