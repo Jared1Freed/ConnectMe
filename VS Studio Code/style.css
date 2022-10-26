@@ -1,17 +1,21 @@
 /*-----------------------------------Home Page-------------------------*/
 *{
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-    font-weight: 500;
 }
 
 h1{
     text-align: center;
     display: block;
+    margin-left: 27%;
+    margin-right: 27%;
+   
 }
 
 p{
     text-align: center;
     margin-top: 20px;
+    margin-left: 32%;
+    margin-right: 32%;
 }
 
 img{
@@ -71,7 +75,7 @@ img{
     width: 50%;
     text-align: center;
     margin-left: 25%;
-    margin-top: 50px;
+    margin-top: 30px;
     
   }
 
