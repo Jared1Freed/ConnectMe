@@ -33,6 +33,15 @@ Has experience with:
 
 ### Travis Wiley
 
+Senior (Information Techonology).
+Has experience with:
+- Web Languages (HTML, JavaScript, CSS)
+- Python, C#, Java
+- Adobe
+- Web & Mobile Application Design
+- User Interface & User Experience
+- Digital Media Design
+
 ## The Project
 
 ### What is ConnectMe?
