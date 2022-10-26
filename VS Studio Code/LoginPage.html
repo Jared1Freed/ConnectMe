@@ -20,12 +20,31 @@
              </ul>
         </nav>
         <header>
-            <h1>Heading</h1>
+            <h1></h1>
         </header>
         <main>
-            <form>
-
-            </form>
+            <form action="/action_page.php" method="post">
+                <div class="container2">
+                  <h1 class="form">Log into your ConnectMe account</h1>
+                  <br><br>
+              
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="example@site.com" name="email" required>
+              
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Minimun 8 characters" name="psw" id="myInput" required>
+                  <a onclick="myFunction()">Show</a>
+                  
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                  </label>
+              
+                  <div class="clearfix">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn">Log In</button>
+                  </div>
+                </div>
+              </form>
 
             <div>
                 <img class="c1" src="Circle.svg" alt="purple circle">
