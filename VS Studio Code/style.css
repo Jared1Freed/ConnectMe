@@ -108,7 +108,7 @@ img{
         width: 75%;
     }
 }
-/*-----------------------------------Sign Up Page-------------------------*/
+/*-----------------------------------Sign Up & Login Page-------------------------*/
 
 h1.form{
     text-align: center;
@@ -192,4 +192,18 @@ button:hover {
   .cancelbtn, .signupbtn {
      width: 100%;
   }
+}
+
+@media only screen and (max-width: 900px) {
+    .container2{
+        height: auto;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    input{
+        height: auto;
+        width: 50%;
+    }
 }
