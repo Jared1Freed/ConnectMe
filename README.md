@@ -27,6 +27,20 @@ Has experience with:
 
 ### Jared Freed
 
+Senior (Information Technology).
+    - (Minor in Art, Minor in Business)
+Has experience with:
+- web languages (HTML, JavaScript, CSS)
+- C#
+- Python
+- Swift
+- MySQL
+- MongoDB
+- Adobe Creative Suite
+
+
+
+
 ### Kaden Marshall
 
 ### Nathan Patterson
