@@ -88,15 +88,26 @@ img{
     padding-top: 10px;
   }
 
-  /*
-  @media only screen and (max-width: 100) {
+
+@media only screen and (max-width: 500) {
     .container{
         height: auto;
         width: auto;
     }
 }
-*/
 
+@media only screen and (max-width: 900px) {
+    .GetStart{
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .c1, .c2{
+        height: 75%;
+        width: 75%;
+    }
+}
 /*-----------------------------------Sign Up Page-------------------------*/
 
 h1.form{
