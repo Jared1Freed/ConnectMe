@@ -5,14 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" type="text/css" href="nav.css">
+        <!-- This is for the Show password Toggle Icon -->
+        <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/> -->
         <script src="new.js"></script>
         <title>Sign Up</title>
     </head>
     <body>
         <nav>
-            <ul class="logo">
-                <a href="index.html"><img class="logo" src="ConnectMe_LightModeV2.PNG" alt="ConnectMe Logo"></a>
-             </ul>
+            
+            <a href="index.html"><img class="logo" src="ConnectMe_LightModeV2.PNG" alt="ConnectMe Logo"></a>
              <ul>
                  <a class="Alr" href="LoginPage.html">Already signed up for ConnectMe?</a>
                  <li class="button2"><a class="log" href="LoginPage.html">Log In</a></li>
@@ -34,8 +35,10 @@
                   <input type="text" placeholder="example@site.com" name="email" required>
               
                   <label for="psw"><b>Choose Password</b></label>
-                  <input type="password" placeholder="Minimun 8 characters" name="psw" id="myInput" required>
-                  <input type="button" onclick="myFunction()">Show
+                  <input type="password" placeholder="Minimun 8 characters" name="password" id="password" required>
+                  <input type="button" onclick="myFunction()" value="Show">
+                  <!-- This is for the Show password Toggle Icon -->
+                  <!-- <i class="bi bi-eye-slash" id="togglePassword"></i> -->
                   
                   <label>
                     <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me

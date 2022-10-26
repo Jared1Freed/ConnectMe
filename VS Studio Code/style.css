@@ -187,6 +187,19 @@ button:hover {
   display: table;
 }
 
+/* This is for the Show password Toggle Icon
+form i {
+    margin-left: -30px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:900px){
+    form i{
+        margin-left: auto;
+    }
+}*/
+
+
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
   .cancelbtn, .signupbtn {
