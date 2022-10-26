@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="nav.css">
+        <script src="new.js"></script>
+        <title>Page Title</title>
+    </head>
+    <body>
+        <nav>
+            <ul class="logo">
+                <!-- <li><a href="index.html">ConnectMe</a></li>-->
+                <a href="index.html"><img class="logo" src="ConnectMe_LightModeV2.PNG"></a>
+             </ul>
+             <ul>
+                 <a style="margin-right: 20px; text-decoration: none;" href="LoginPage.html">Already signed up for ConnectMe?</a>
+                 <li class="button2">Log In<a href="LoginPage.html"></a></li>
+             </ul>
+        </nav>
+        <header>
+            <h1></h1>
+        </header>
+        <main>
+            <form action="/action_page.php" method="post">
+                <div class="container2">
+                  <h1 class="form">Set up your ConnectMe account</h1>
+                  <br><br>
+
+                  <label for="name"><b>Full Name</b></label>
+                  <input type="text" placeholder="John Doe" name="name" required>
+              
+                  <label for="email"><b>Email</b></label>
+                  <input type="text" placeholder="example@site.com" name="email" required>
+              
+                  <label for="psw"><b>Choose Password</b></label>
+                  <input type="password" placeholder="Minimun 8 characters" name="psw" id="myInput" required>
+                  <input type="button" onclick="myFunction()">Show
+              
+                  <label for="psw-repeat"><b>Repeat Password</b></label>
+                  <input type="password" placeholder="Repeat Password" name="psw-repeat" id="myInput" required>
+                  <input type="button" onclick="myFunction()">Show
+                  
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                  </label>
+                  
+                  <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+              
+                  <div class="clearfix">
+                    <button type="button" class="cancelbtn">Cancel</button>
+                    <button type="submit" class="signupbtn">Get Started</button>
+                  </div>
+                </div>
+              </form>
+
+              <div>
+                <img class="c1" src="Circle.svg" alt="purple circle">
+                <img class="c2" src="Circle.svg" alt="purple circle">
+                </div>
+        </main>
+
+        <footer>
+        </footer>
+    </body>
+</html>
