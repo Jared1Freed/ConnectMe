@@ -96,7 +96,7 @@ img{
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1250px) {
     .GetStart{
         margin-bottom: 5%;
     }
