@@ -107,7 +107,10 @@ With the newly anticipated simplicity of any minigames we create for ConnectMe, 
 
 ### Web Development
 
-1. 
+1. https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/
+2. https://www.w3schools.com/
+3. https://www.geeksforgeeks.org/how-to-count-number-of-notification-on-an-icon/
+
 
 ### Database
 
