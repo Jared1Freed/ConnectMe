@@ -66,7 +66,7 @@ img{
   }
   
   input[type=submit] {
-    background-color: #8600ff;
+    background-color: #773BFF;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -154,7 +154,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* Set a style for all buttons */
 button {
-  background-color: #8600ff;
+  background-color: #773BFF;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -237,4 +237,23 @@ form i {
         height: auto;
         width: 50%;
     }
+}
+
+/*-----------------------------------Dashboard Page #1-------------------------*/
+
+.wrapper {
+    margin-right: auto;
+    margin-left:  50px;
+    margin-bottom: 10px;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left:  10px;
+}
+
+.box{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px 2px #f1f1f1;
+    width: 300px;
+    height: 200px;
 }
