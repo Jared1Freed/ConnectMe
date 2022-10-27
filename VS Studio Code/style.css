@@ -3,6 +3,7 @@
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
+
 h1{
     text-align: center;
     display: block;
@@ -27,16 +28,17 @@ img{
     opacity: 0.9;
     margin-left: -200px;
     margin-top: 0px;
-    margin-bottom: none;
+    overflow: hidden;
 }
 
 .c2{
     margin: 5%;
     opacity: 0.5;
     width: 40%;
-    height: 20%;
     margin-left: -300px;
     margin-top: 100px;
+    overflow: hidden;
+    position: absolute;
 }
 
 
@@ -103,10 +105,18 @@ img{
 }
 
 @media only screen and (max-width: 900px) {
-    .c1, .c2{
+    .c1{
         height: 75%;
         width: 75%;
     }
+}
+
+@media only screen and (max-width: 900px) {
+    .c2{
+        
+        width: 75%;
+        position: absolute;
+}
 }
 /*-----------------------------------Sign Up & Login Page-------------------------*/
 
