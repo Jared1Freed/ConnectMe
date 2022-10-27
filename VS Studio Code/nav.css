@@ -22,6 +22,7 @@
     width: 175px;
     height: 30px;
     padding: 5px;
+    margin-top: 5px;
   }
 
 .logo-image{
@@ -95,25 +96,34 @@
     width: 100%;
   }
 
- /* 
+  
  
- @media screen and (max-width: 300px) {
+ @media screen and (max-width: 1000px) {
     .logo {
-       width: 0%;
+       width: 300px;
+       height: auto;
+       margin-left: 165px;
+
     }
   }
 
-  @media screen and (max-width: 800px) {
-    .Alr{
-      width: 20%;
+
+@media screen and (max-width: 1000px) {
+    a.Alr{
+      width: 30%;
       float: none;
+      font-size: small;
+   }
+ }
+
+ @media screen and (max-width: 1000px) {
+    .button2{
+      width: 60%;
+      height: 5%;
+      margin-bottom: 10%;
    }
  }
 
  
-*/
-
-
-
 
   
