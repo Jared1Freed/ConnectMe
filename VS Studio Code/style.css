@@ -110,6 +110,14 @@ img{
 }
 /*-----------------------------------Sign Up & Login Page-------------------------*/
 
+p.terms{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+}
+
 h1.form{
     text-align: center;
     display: block;
