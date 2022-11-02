@@ -33,6 +33,17 @@ Has experience with:
 
 ### Kaden Marshall
 
+Senior (Information Technology).
+Has experience with:
+- Web languages (HTML, JavaScript, CSS, PHp)
+- Python
+- C#
+- Game Development
+- MySQL
+- Cyber Security
+- Network Administration
+- Digital Media
+
 ### Nathan Patterson
 
 ### Travis Wiley
