@@ -11,11 +11,11 @@
     margin-bottom: 5%;
   }
   nav ul{
-    float: right;
-    margin-right: 30px;
+    float: left;
+    margin-right: 50px;
   }
 
-  .logo{
+.logo{
     color: #773BFF;
     float: left;
     display: block;
@@ -41,14 +41,16 @@
     font-weight: 500;
   }
 
-  nav ul li:hover{
-    background-color: #773BFF;
-  }
+  /* nav ul li:hover{
+    background-color: #8600ff;
+  } */
 
   nav ul li a{
     text-decoration: none;
-    color: #fff;
+    color: black;
     padding: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
   }
 
   a.log{
@@ -85,10 +87,10 @@
     box-shadow: 3px 3px #f1f1f1;
   }
 
-  .button2:hover{
-    background-color: #773BFF;
+  /* .button2:hover{
+    background-color: #8600ff;
     color: white;
-  }
+  } */
 
   .Alr{
     margin-right: 20px; 
@@ -96,34 +98,32 @@
     width: 100%;
   }
 
-  
- 
- @media screen and (max-width: 1000px) {
-    .logo {
-       width: 300px;
-       height: auto;
-       margin-left: 165px;
 
+ /* 
+ 
+ @media screen and (max-width: 300px) {
+    .logo {
+       width: 0%;
     }
   }
 
-
-@media screen and (max-width: 1000px) {
-    a.Alr{
-      width: 30%;
+  @media screen and (max-width: 800px) {
+    .Alr{
+      width: 20%;
       float: none;
-      font-size: small;
    }
  }
 
- @media screen and (max-width: 1000px) {
-    .button2{
-      width: 60%;
-      height: 5%;
-      margin-bottom: 10%;
-   }
- }
+ @media screen and (max-width: 800px) {
+     nav{
+       width: 100%;
+       float: none;
+    }
+  }
 
- 
+*/
+
+
+
 
   

@@ -66,7 +66,7 @@ img{
   }
   
   input[type=submit] {
-    background-color: #8600ff;
+    background-color: #773BFF;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -154,7 +154,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* Set a style for all buttons */
 button {
-  background-color: #8600ff;
+  background-color: #773BFF;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -225,8 +225,9 @@ form i {
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
     .container2{
+        margin-top: 25%;
         height: auto;
         width: 50%;
     }
@@ -238,3 +239,40 @@ form i {
         width: 50%;
     }
 }
+
+/*-----------------------------------Dashboard Page #1-------------------------*/
+
+.wrapper {
+    margin-right: auto;
+    margin-left:  50px;
+    margin-bottom: 10px;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left:  10px;
+}
+
+.box1{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px 2px #f1f1f1;
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    background-color: white;
+}
+
+.box2{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px 2px #1a1919;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    float: right;
+    background-color: #33373d;
+}
+
+/* body{
+    background-color: #303338;
+} */
+
